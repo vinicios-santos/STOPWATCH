@@ -26,9 +26,9 @@ body{
 
 .start button {
     border-radius: 15px;
+    margin: 20px 0px;
     width: 200px;
     height: 80px;
-    margin: 20px;
     background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
     box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
     inset 0 -8px 8px rgba(0, 0, 0, 0.25),
@@ -99,9 +99,9 @@ input[type=number]::-webkit-inner-spin-button {
   }
 .stop button{
     border-radius: 15px;
+    margin: 20px 0px;
     width: 200px;
     height: 80px;
-    margin: 20px;
     background: linear-gradient(180deg, #f00, #DC1C13);
     box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
     inset 0 -8px 8px rgba(0, 0, 0, 0.25),
@@ -132,4 +132,53 @@ input[type=number]::-webkit-inner-spin-button {
 h1{
     margin-top: -60px;
     font-size: 100px;
+}
+@media (max-width: 770px)
+{
+    input{
+        background-color: #a7af7c;
+        font-size: 40px;
+        border: 2px solid #222;
+        border-radius: 20px;
+        width: 100%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    #display{
+        height: 66px;
+    }
+    .stop button{
+        border-radius: 7.5px;
+        margin: 10px 0px;
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .start button{
+        border-radius: 7.5px;
+        margin: 10px 0px;
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .indicator{
+        text-align: center;
+        background-color: #222;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        border: solid 1px BLACK;
+    }
+    .indicator h4{
+        font-size: 20px;
+    }
+    .copyright{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    #display h3{
+        font-size: 50px;
+    }
+
 }
